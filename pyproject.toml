@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "skypro-hw19"
+version = "0.1.0"
+description = ""
+authors = ["Artem Dedov <artem-dedov2012@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "skypro_hw19"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
